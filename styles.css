@@ -1,0 +1,392 @@
+/* Google fonts used are: 'Open Sans', sans-serif; and "Lobster", sans-serif*/
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }  
+
+body {
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    /* Background image link: https://www.pexels.com/photo/person-walking-in-the-desert-1824570 */
+    background-image: url("images/background4.png")
+}
+
+/* Nav bar from bootstrap*/
+.why{
+    background-color: #FFBD3D;
+    
+}
+
+h1, .navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: black;
+    margin-left: 2vh;  
+    font-size: x-large;
+}
+
+.nav-item {  
+    color: black;    
+}
+
+/*logo made by chat gpt and Tallita*/
+.logo {
+    width: 50px;       
+    height: auto;     
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+/*game centering*/
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+/* banner that is 100% width to cover horizontaly whole screen you can coppy it for your banned if you plan on changing any values (from game page)*/
+.banner {
+    display: block;         
+    margin: 0 auto;         
+    width: 100%;            
+    height: 300px;
+    object-fit: cover;           
+}
+/* this is for horizontal centering images*/
+.centered {
+    display: block;        
+    margin-left: auto;     
+    margin-right: auto;
+}
+/* reviews*/
+.card-inner{
+    margin-left: 4rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+}
+
+/* Fonts */
+.title-font {
+    font-family: 'Lobster', cursive;
+    color: #333;
+}
+
+.text-font {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+   
+}
+
+/* Visual elements */
+.yellow-line {
+    width: 100px;
+    height: 3px;
+    background: #ffcc00;
+    margin: 15px auto;
+}
+
+.about-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px;    
+    height: 300px;   
+    object-fit: cover; 
+}
+
+.member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    object-fit: cover;
+}
+
+
+/* Main container */
+.values-box {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+/* Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Lobster', cursive;
+    width: 100%;
+}
+.our-team {
+    margin-bottom: 50px;
+}
+.our-team .row {
+    justify-content: center; 
+}
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Values Grid */
+.values-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* each item */
+.value-item {
+    text-align: center;
+    width: 280px;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.value-emoji {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.value-title {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    margin: 10px 0;
+}
+
+.value-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+/* Booking Form Styles */
+#bookingForm {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Radio Button*/
+.duration {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.duration label.form-label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.duration .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.duration .form-check-input {
+    margin-right: 0.8rem;
+    margin-top: 0; 
+}
+
+.duration .form-check-label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+.form-control, .form-select {
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #7f7f7f;
+    box-shadow: 0 0 0 0.25rem rgba(19, 19, 19, 0.25);
+}
+
+/* Checkboxes */
+.form-check {
+    margin-bottom: 0.5rem;
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #a05430;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+   
+}
+
+.btn-primary:hover {
+    background-color: #87491a;
+}
+/* Booking Form logo*/
+.booking-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* form title */
+#bookingForm h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* form Container  */
+#bookingForm {
+    background: rgb(185, 183, 177);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+}
+
+/* gallery cards */
+.col {
+    height: 100%;
+    padding: 5vh;
+}
+
+.card-img-top {
+    max-height: 70vh;    
+}
+
+.main {
+    padding: 2vh;
+}
+
+.card-body{
+    background-color: #E3D5C9;
+}
+
+/* Home Page - above the folder section */
+.hero {
+    padding: 6rem 0;
+    text-align: center;
+    
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Home Page - Portfolio section */
+.portfolio-section {
+    padding: 1rem 0;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    max-height: 40vh;
+}
+
+.portfolio-image-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* This creates a consistent aspect ratio (4:3) */
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: opacity 0.3s ease;
+}
+
+.img-fluid{
+    max-height: 25vh;
+}
+
+.portfolio-item:hover img {
+    opacity: 0.9;
+}
+
+.portfolio-title {
+    margin-top: 1rem;
+    font-weight: 650;
+    font-size: 1rem;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio-category {
+    font-size: 0.8rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Home Page - About us section */
+.about-section {
+    padding: 6rem 0;
+    background-color: #E3D5C9;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* text on footer */
+.text-center, .text-footer{
+    color: #333;
+}
